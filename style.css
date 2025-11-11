@@ -25,6 +25,14 @@ body {
     gap: 30%;
 }
 
+
+.menu {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 3rem;
+}
+
 .menu-link {
     text-decoration: none;
     color: var(--claro);
