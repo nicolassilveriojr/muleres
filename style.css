@@ -1,3 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
 :root {
     --primaria: #4f46e5;
     --secundaria: #7c3aed;
@@ -7,12 +14,12 @@
     --vidro: rgba(255, 255, 255, 0.1);
 }
 
-
-body { 
-    background-color: ;
+body {
+    background-color: var(--escuro);
+    color: var(--claro)
 }
 
-.cabecalho{
+.cabecalho {
     background-color: black;
     color: whitesmoke;
     padding-top: 30px;
@@ -56,17 +63,11 @@ body {
     width: 100%;
 }
 
-#titulo {
+#titulo {}
 
-}
+p {}
 
-p {
-    
-}
-
-.imgcentro {
-
-}
+.imgcentro {}
 
 .navegacao {
     position: fixed;
@@ -77,24 +78,24 @@ p {
     padding: 1.5rem;
 }
 
-li{
+li {
     display: inline-block;
-   
+
 
 }
 
-li a{
+li a {
     font-size: 50px;
 
 }
 
-button{
+button {
     font-size: 16px;
     color: rgb(255, 0, 132);
 
 }
 
-.particulas{
+.particulas {
     position: fixed;
     top: 0;
     left: 0;
@@ -102,8 +103,7 @@ button{
     height: 100%;
     z-index: -1;
     opacity: 0.5;
-    background: 
-    radial-gradient(circle at 10% 20%, var(--primaria) 0% transparent 20%),
-    radial-gradient(circle at 90% 80% var(--secundaria) 0% transparent 20%)
-    var(--maisEscuro);
+    background:
+        radial-gradient(circle at 10% 20%, var(--primaria) 0% transparent 20%),
+        radial-gradient(circle at 90% 80% var(--secundaria) 0% transparent 20%) var(--maisEscuro);
 }
