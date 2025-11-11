@@ -60,8 +60,10 @@ body {
 
 #titulo {}
 
-p {}
-
+.sobre-paragrafo {
+    text-align: center;
+    font-size: 1.2rem;
+}
 .imgcentro {}
 
 .navegacao {
