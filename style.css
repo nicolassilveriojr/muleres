@@ -20,16 +20,11 @@ body {
 }
 
 .cabecalho {
-    background-color: black;
-    color: whitesmoke;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    font-size: 25px;
-    padding: 20px;
-    text-align: center;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
-    gap: 30%;
+    align-items: center;
+    flex-direction: column;
 }
 
 
