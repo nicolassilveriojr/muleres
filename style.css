@@ -102,3 +102,19 @@ button {
         radial-gradient(circle at 10% 20%, var(--primaria) 0% transparent 20%),
         radial-gradient(circle at 90% 80% var(--secundaria) 0% transparent 20%) var(--maisEscuro);
 }
+
+.botao-voltar {
+    color: var(--claro);
+    background: linear-gradient(90deg, var(--primaria)var(--secundaria));
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bolder;
+    width: 100%;
+    transition: all 0.5s ease;
+}
+
+.botao-voltar:hover{
+    transform: translateY((-4px));
+    box-shadow: 0 5px 15px rgba(79, 70, 229, 0.4);
+}
