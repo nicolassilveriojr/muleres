@@ -128,6 +128,14 @@ button {
     animation: flutuar 5s ease-in-out infinite;
 }
 
+.cabecalho {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 .botao-voltar {
     color: var(--claro);
     background: linear-gradient(90deg, var(--primaria)var(--secundaria));
